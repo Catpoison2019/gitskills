@@ -1,7 +1,8 @@
 class vulan(object):
-    def __init__(self,name,gender):
+    def __init__(self,name,gender,age):
         self.__name=name
         self.__gender=gender
+        self.__age=age
     def get_gender(self):
         return self.__gender
     def set_gender(self,value):

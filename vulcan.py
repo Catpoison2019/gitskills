@@ -8,5 +8,5 @@ class vulan(object):
         if gender=='female'or'male':
             self.__gender=gender
         else:
-            raise ValueError('bad gender')
+            raise ValueError('error gender')
 
